@@ -1,0 +1,87 @@
+.background {
+  background-image: url("/images/pexels-pixabay-50711.jpg");
+  background-color: green;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: safe;
+}
+
+.hero::before {
+  content: "";
+  background-image: url("/images/pexels-dmitry-demidov-3784221.jpg");
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+div {
+  position: relative;
+  color: cornsilk;
+  font: size 1rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 0.8;
+}
+.headpara {
+  font-style: normal;
+  font-family: monospace;
+  font-size: 7px;
+}
+nav {
+  border: lawngreen;
+  text-align: left;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+}
+
+a {
+  color: rgb(20, 188, 240);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+#searchbox {
+  margin-left: 25px;
+  width: 250px;
+  height: 25px;
+}
+#submit {
+  height: 30px;
+}
+
+.account {
+  
+  width: 400px;
+  height: 43%;
+  margin-left: 10px;
+}
+#para {
+  margin-left: 10px;
+}
+main {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+max-width: -5px;
+}
